@@ -1,0 +1,28 @@
+/*--------------------------------------------------------------
+# Header Section
+--------------------------------------------------------------*/
+.site-header{
+  background-color: rgba(255, 255, 255, 0.8);
+  border-bottom: 1px solid $color__litegrey;
+  padding: .5rem 0;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+.site-header .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+
+.site-header h1{
+  background: url(../../images/logos/inhabitent-logo-tent.svg) no-repeat;
+  background-size: 50px 30px;
+  height: 30px;
+  margin: 0;
+  overflow: hidden;
+  text-indent: 100%;
+  width: 50px;
+}

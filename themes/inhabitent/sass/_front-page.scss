@@ -1,0 +1,314 @@
+/*--------------------------------------------------------------
+# Fronts
+--------------------------------------------------------------*/
+.front-area {
+    padding-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.home-hero {
+    align-items: center;
+    background: linear-gradient(180deg,rgba(0,0,0,.4) 0,rgba(0,0,0,.4)), url("../../images/home-hero.jpg") no-repeat top;
+    background-size: cover,cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.home-hero img {
+    height: 280px;
+    width: 280px;
+}
+/*--------------------------------------------------------------
+# Shop Stuff
+--------------------------------------------------------------*/
+.shop-stuff {
+    margin-bottom: 4rem;
+}
+
+.product-type-blocks {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.product-type-wrapper {
+    border: 1px solid $color__litegrey;
+    border-top-width: 5px;
+    flex: 0 1 23.5%;
+    max-width: 23.5%;
+    padding: 1rem 1rem 1.5rem;
+    text-align: center;
+
+    &:hover {
+        border-color: $color__orange;
+    }
+
+    .logo {
+        height: 70px;
+        width: 70px;
+    }
+}
+
+.shop-stuff-description {
+    font-size: 14px;
+}
+/*--------------------------------------------------------------
+# Inhabitent Journals
+--------------------------------------------------------------*/
+.inhabitent-journals {
+    margin-bottom: 4.5rem;
+}
+
+.meta {
+    position: fixed;
+}
+
+.inhabitent-journals ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.inhabitent-journals ul li {
+    border: 1px solid $color__litegrey;
+    flex: 0 1 32%;
+
+    h2 {
+        font-size: 1.3rem;
+        letter-spacing: 2px;
+        line-height: normal;
+    }
+}
+
+.thumbnail-wrapper {
+    background-color: $color__litegrey;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+
+    img {
+        left: 50%;
+        max-height: 250px;
+        max-width: none;
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%,-52%);
+        width: auto;
+        height: auto;
+    }
+}
+
+.post-info-wrapper {
+    padding: 0.75rem;
+}
+
+.journal-meta {
+    font-size: 0.75rem;
+}
+
+.journal-title {
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
+/*--------------------------------------------------------------
+# Latest Adventures
+--------------------------------------------------------------*/
+.inhabitent-adventures {
+    margin-bottom: 3rem;
+}
+
+.latest-adventures {
+    width: 1120px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin-bottom: 1rem;
+}
+
+.adventure-wrapper-one {
+    position: relative;
+
+    img {
+        height: 520px;
+        display: block;
+    }
+
+    &:before {
+        content: '';
+        position: absolute;
+        background-color: rgba(0,0,0,.35);
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+}
+
+.header-one {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 10;
+    margin: 2rem;
+    width: 450px;
+
+    .title-one {
+        font-size: 3rem;
+        line-height: 1.2;
+        color: $color__white;
+        margin-bottom: 2rem;
+
+        &:hover,
+        &focus {
+            color: $color__yellow;
+        }
+    }
+}
+
+.header-two {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 10;
+    margin: 2rem;
+    width: 450px;
+
+    .title-two {
+        font-size: 2.5rem;
+        line-height: 1.5;
+        color: $color__white;
+        margin-bottom: 2rem;
+
+        &:hover,
+        &focus {
+            color: $color__yellow;
+        }
+    }
+}
+
+.header-three {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 10;
+    padding: 1.5rem;
+    width: 235px;
+
+    .title-three {
+        font-size: 1.5rem;
+        line-height: 1.5;
+        color: $color__white;
+        margin-bottom: 2rem;
+
+        &:hover,
+        &focus {
+            color: $color__yellow;
+        }
+    }
+}
+
+.header-four {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 10;
+    padding: 1.5rem;
+    width: 235px;
+
+    .title-four {
+        font-size: 1.5rem;
+        line-height: 1.5;
+        color: $color__white;
+        margin-bottom: 2rem;
+
+        &:hover,
+        &focus {
+            color: $color__yellow;
+        }
+    }
+}
+
+.left-box {
+    width: 49.5%;
+}
+
+.right-box {
+    width: 49%;
+}
+
+.adventure-wrapper-two {
+    position: relative;
+
+    img {
+        display: block;
+        height: 250px;
+    }
+
+    &:before {
+        content: '';
+        position: absolute;
+        background-color: rgba(0,0,0,.35);
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+}
+
+.bottom-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin-top: 1rem;
+}
+
+.adventure-wrapper-three {
+    position: relatvie;
+    width: 48.5%;
+
+    img {
+        height: 255px;
+        display: block;
+    }
+
+    &:before {
+        content: '';
+        position: absolute;
+        background-color: rgba(0,0,0,.35);
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+}
+
+.adventure-wrapper-four {
+    position: relative;
+    width: 48.5%;
+
+    img {
+        height: 255px;
+        display: block;
+    }
+
+    &:before {
+        content: '';
+        position: absolute;
+        background-color: rgba(0,0,0,.35);
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+}
+
+.more-adventures {
+    font-size: 1.2rem;
+}

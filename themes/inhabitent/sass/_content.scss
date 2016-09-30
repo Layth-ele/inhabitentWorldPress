@@ -1,0 +1,44 @@
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+/* Posts and pages */
+.sticky {
+	display: block;
+}
+
+.hentry {
+	margin: 0 0 3rem;
+}
+
+.updated:not(.published) {
+	display: none;
+}
+
+.group-blog .byline,
+.single .byline {
+	display: inline;
+}
+
+.entry-content,
+.entry-summary,
+.page-content {
+	margin: 1.5rem 0 0;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5rem;
+}
+/* Asides */
+.archive .format-aside .entry-title,
+.blog .format-aside .entry-title {
+	display: none;
+}
+/* Comments */
+.comment-content a {
+	word-wrap: break-word;
+}
+
+.bypostauthor {
+	display: block;
+}

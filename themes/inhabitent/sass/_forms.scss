@@ -1,0 +1,153 @@
+/*--------------------------------------------------------------
+# Forms
+--------------------------------------------------------------*/
+/* Buttons */
+.btn,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	background-color: $color__green;
+	color: $color__white;
+	border-radius: 0;
+	cursor: pointer;
+	font-family: Novecento, sans-serif;
+	font-size: 1rem;
+	line-height: 1;
+	padding: 0.75rem 1.5rem;
+	text-decoration: none;
+	text-transform: uppercase;
+	border: none;
+
+	&:hover,
+	a:hover {
+		background-color: #1a6560;
+		color: $color__white;
+	}
+
+	&:active,
+	&:focus,
+	a:active,
+	a:focus {
+		background-color: #1a6560;
+		color: $color__white;
+	}
+}
+
+.read-entry,
+.read-more,
+.single-post-social {
+	background-color: transparent;
+	border: 1px solid #000;
+	border-radius: 0;
+	color: #000;
+	cursor: poiter;
+	font-family: Novecento, sans-serif;
+	font-size: 0.9rem;
+	line-height: 1;
+	padding: 0.75rem 1.5rem;
+	text-decoration: none;
+	text-transform: uppercase;
+
+	&:hover,
+	a:hover {
+		background-color: $color__green;
+		color: $color__white;
+		border: none;
+	}
+
+	&:active,
+	&:focus,
+	a:active,
+	a:focus {
+		background-color: $color__green;
+		color: $color__white;
+		border: none;
+	}
+}
+
+.adventure-read-more {
+	width: 130px;
+	padding: 0.5rem;
+	text-align: center;
+	font-family: Novecento, sans-serif;
+	background-color: transparent;
+	text-transform: uppercase;
+	border: 1px solid $color__white;
+	color: $color__white;
+
+	&:hover,
+	a:hover {
+		background-color: $color__green;
+		color: $color__white;
+		border: none;
+	}
+
+	&:active,
+	&:focus,
+	&:visited,
+	a:active,
+	a:focus,
+	a:visited {
+		background-color: $color__green;
+		color: $color__white;
+		border: none;
+	}
+}
+
+.adventures-read-more {
+	width: 130px;
+	padding: 0.7rem 1.5rem;
+	text-align: center;
+	font-family: Novecento, sans-serif;
+	background-color: transparent;
+	text-transform: uppercase;
+	border: 1px solid $color__white;
+	color: $color__white;
+
+	&:hover,
+	a:hover {
+		background-color: $color__green;
+		color: $color__white;
+		border: none;
+	}
+
+	&:active,
+	&:focus,
+	&:visited,
+	a:active,
+	a:focus,
+	a:visited {
+		background-color: $color__green;
+		color: $color__white;
+		border: none;
+	}
+}
+/* Fields */
+input[type="email"],
+input[type="password"],
+input[type="search"],
+input[type="text"],
+input[type="url"],
+textarea {
+	color: $main__text__color;
+	border: 1px solid $color__litegrey;
+	border-radius: 3px;
+
+	&:focus {
+		color: #111;
+	}
+}
+
+input[type="email"],
+input[type="password"],
+input[type="search"],
+input[type="text"],
+input[type="url"] {
+	padding: 3px;
+}
+
+textarea {
+	padding-left: 3px;
+	width: 100%;
+}

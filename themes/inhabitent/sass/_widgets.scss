@@ -1,0 +1,49 @@
+/*--------------------------------------------------------------
+# Widgets
+--------------------------------------------------------------*/
+.widget-area {
+	padding-left: 5%;
+	padding-bottom: 3rem;
+	width: 27%;
+}
+
+.widget {
+	margin: 0 0 3rem;
+}
+
+.widget-title {
+	font-size: 1.5rem;
+}
+
+.contact-widget {
+	i {
+		line-height: 1.8;
+		margin-right: 0.5rem;
+		width: 17px;
+	}
+}
+
+.contact-meta {
+	display: flex;
+}
+
+.day-of-week {
+	font-weight: 800;
+	margin-right: 0.5rem;
+}
+
+.widget_archive ul {
+	padding-left: 0;
+
+	h2 {
+		font-size: 1.5rem;
+	}
+
+	select {
+		max-width: 100%;
+	}
+}
+/* Search widget. */
+.widget_search .search-submit {
+	display: none;
+}

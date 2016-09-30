@@ -1,0 +1,86 @@
+/*--------------------------------------------------------------
+# Comments
+--------------------------------------------------------------*/
+.entry-footer {
+    font-family: Novecento, sans-serif;
+    text-transform: uppercase;
+}
+
+.cat-links {
+    margin-right: 1rem;
+}
+
+.social-buttons {
+    margin-top: 1rem;
+}
+
+.children li {
+    border-top: 1px solid $color__litegrey;
+}
+
+.comment {
+    padding-top: 1.5rem;
+}
+
+.comment-body {
+    padding-bottom: 1.5rem;
+}
+
+.comment-list > li {
+    border-bottom: 1px solid $color__litegrey;
+}
+
+.comment-reply-title {
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.comment-form {
+    label {
+        font-family: Novecento, sans-serif;
+        text-transform: uppercase;
+    }
+
+    textarea {
+        margin-top: 1rem;
+        background-color: #f4f4f4;
+        border-color: $color__litegrey;
+        color:$color__border-abbr;
+    }
+
+    p {
+        margin-bottom: 1.3rem;
+    }
+}
+
+.comment-form-author {
+    width: 49%;
+    margin-right: 1%;
+    float: left;
+
+    input {
+        width: 100%;
+        background-color: #f4f4f4;
+    }
+}
+
+.comment-form-email {
+    width: 49%;
+    margin-left: 1%;
+    float: left;
+    color:$color__border-abbr;
+
+    input {
+        width: 100%;
+        background-color: #f4f4f4;
+    }
+}
+
+.comment-form-url {
+    width: 100%;
+
+    input {
+        width: 100%;
+        background-color: #f4f4f4;
+    }
+}

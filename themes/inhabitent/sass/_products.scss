@@ -1,0 +1,110 @@
+/*--------------------------------------------------------------
+# Archive Product Shop Page
+--------------------------------------------------------------*/
+.archive-product-area {
+    padding-top: 4.5rem;
+}
+
+.shop-nav-container {
+    display: flex;
+    justify-content: center;
+    font-family: Novecento;
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+
+    a {
+        margin: 0 1rem;
+    }
+}
+
+.page-header {
+    border-bottom: 1px dashed $color__litegrey;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.page-header-title {
+    padding-top: 4.5rem;
+}
+
+.product-grid {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-content: space-between;
+margin-top: 1.5rem;
+margin-bottom: 1.5rem;
+}
+
+.product-grid-item {
+    border: 1px solid $color__litegrey;
+    width: 23%;
+    margin-bottom: 1.5rem;
+}
+
+
+.product-info{
+  padding: .75rem 1rem;
+}
+
+.product-title {
+    background: $color__background-body;
+    padding-right: 0.25rem;
+    display: inline;
+    font-size: 0.9rem;
+}
+
+.product-title:before {
+    float: left;
+    width: 0;
+    white-space: nowrap;
+    content: "...............................................";
+}
+
+.price {
+    float: right;
+    padding-left: 0.25rem;
+    background: $color__background-body;
+}
+/*--------------------------------------------------------------
+# Single Product Page
+--------------------------------------------------------------*/
+.single-product-area {
+    width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3rem;
+}
+
+.single-product-main {
+    margin-top: 3rem;
+}
+
+.single-product .hentry {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-image-wrapper {
+    width: 48%;
+}
+
+.product-content-wrapper {
+    width: 48%;
+}
+
+.single-product-title {
+    margin-bottom: 1rem;
+    margin-top: 0;
+    line-height: 1;
+    text-align: left;
+    font-weight: 800;
+    color: $color__orange;
+}
+
+.single-price {
+    font-family: Novecento, sans-serif;
+    font-size: 1.7rem;
+    margin-top: 0;
+    text-transform: uppercase;
+}

@@ -1,0 +1,98 @@
+/*--------------------------------------------------------------
+# Find Us Page
+--------------------------------------------------------------*/
+.entry-title {
+    text-align: left;
+}
+
+.google-map {
+    margin-bottom: 2rem;
+}
+
+.content-area {
+    width: 1120px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4.5rem;
+}
+
+.search-main,
+.site-main {
+    border-right: 1px solid $color__litegrey;
+    padding-right: 3rem;
+    width: 73%;
+    padding-bottom: 3rem;
+    padding-top: 1.5rem;
+}
+
+.required {
+    color: $color__orange;
+}
+/*--------------------------------------------------------------
+#  About Page
+--------------------------------------------------------------*/
+.about-content {
+    margin: 3rem auto;
+    max-width: 800px;
+
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.our-story {
+    margin-bottom: 2rem;
+}
+/*--------------------------------------------------------------
+# 404 Page
+--------------------------------------------------------------*/
+.widgettitle {
+    font-size: 1.5rem;
+}
+
+.widget_categories,
+.widget_recent_entries {
+    ul {
+        padding-left: 0;
+    }
+}
+
+.error-title {
+    font-size: 2.3rem;
+    font-weight: bold;
+    text-align: left;
+}
+/*--------------------------------------------------------------
+# Search Result Page
+--------------------------------------------------------------*/
+.search-header {
+    border-bottom: 1px solid $color__litegrey;
+}
+
+.search-title {
+    text-align: left;
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+
+.search-pagination .page-numbers.current {
+    background-color: #77777c;
+}
+
+.search-pagination .page-numbers {
+    background-color: $color__green;
+    padding: 0.5rem 1rem;
+    font-family: Novecento, sans-serif;
+    text-transform: uppercase;
+    color: $color__white;
+}
+
+.search-pagination a:hover,
+a:active {
+    background-color: $color__purple;
+}

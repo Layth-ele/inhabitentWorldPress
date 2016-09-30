@@ -1,0 +1,42 @@
+/*--------------------------------------------------------------
+# Journal Page
+--------------------------------------------------------------*/
+.blog .entry-header,
+.single-post .entry-header {
+    position: relative;
+
+    img {
+        width: 100%;
+    }
+
+    h2 {
+        background-color: $color__green;
+        color: $color__white;
+        max-width: 75%;
+        padding: 0.75rem 1.5rem;
+        position: absolute;
+        top: 0;
+        line-height: 1.2;
+    }
+
+    a {
+        color: $color__white;
+    }
+
+    &:hover,
+    a:hover {
+        color: $color__yellow;
+    }
+
+    .entry-meta {
+        background-color: $color__green;
+        color: $color__white;
+        font-size: 1rem;
+        font-family: Novecento;
+        padding: 0.3rem 1rem;
+        max-width: 55%;
+        position: absolute;
+        right: 0;
+        bottom: 0.5rem;
+    }
+}
